@@ -10,7 +10,8 @@ public static void main(String[] args) {
 
     String userName = myScanner.nextLine();
 
-    System.out.Println("Your username is:" + Username);
+    System.out.Println("Your Username is:" + Username);
 
-    int myInt = myScanner.nextInt(); // Scan integers.
-    double myDouble = myScanner.nextDouble(); // Scan doubles
+    System.out.Println("\n Please enter the name of your weapon:");
+    String weaponName = myScanner.nextLine();
+    System.out.PrintLn(weaponName + "That's a great choice"); 
