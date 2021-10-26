@@ -15,3 +15,9 @@ public static void main(String[] args) {
     System.out.Println("\n Please enter the name of your weapon:");
     String weaponName = myScanner.nextLine();
     System.out.PrintLn(weaponName + "That's a great choice"); 
+
+    System.out.Println("\n Please enter the monster name:");
+    String MonsterName = myScanner.nextline();
+    System.out.Println(MonsterName + "Is a really...Dangerous monster")
+
+    
