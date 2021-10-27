@@ -18,6 +18,19 @@ public static void main(String[] args) {
 
     System.out.Println("\n Please enter the monster name:");
     String MonsterName = myScanner.nextline();
-    System.out.Println(MonsterName + "Is a really...Dangerous monster")
+    System.out.Println(MonsterName + "Is a really...Dangerous monster");
+
+    System.out.Println("\n How many attacks do you want to use?");
+    var numberAttack = myScanner.nextLine();
+    System.out.Println(numberAttack + "ammount of attacks");
+
+    System.out.Println("\n Your attack power");
+    int damageDealt = myScanner.nextInt();
+    System.out.Println(DamageDealt + "damage per attack");
+
+    int totalDamage = numberAttack + DamageDealt;
+    System.out.Println("\n your total damage was" + totalDamage);
+}
+
 
     
